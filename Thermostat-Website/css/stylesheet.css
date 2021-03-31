@@ -1,0 +1,155 @@
+html,
+body,
+.container-fluid {
+    height: 100%;
+    background-color: #111;
+    color: white;
+}
+
+html {
+    -webkit-app-region: drag;
+}
+
+.scheduler-menu {
+    float: right;
+    margin: 20px;
+}
+
+.scheduler-menu button h2 {
+    margin: 0;
+    margin-top: 0;
+}
+
+.scheduler-menu button {
+    background-color: transparent;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+.scheduler-menu button:hover {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 30px;
+}
+
+.scheduler-menu button:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 30px;
+}
+
+.dropdown-menu {
+    min-width: 207px;
+    min-height: 192px;
+    color: black;
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 25px;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.upper-container {
+    position: relative;
+    background: linear-gradient(to bottom right, #5564C2, #3A2E8D);
+}
+
+.temperature-text {
+    position: absolute;
+    bottom: 200px;
+    user-select: none;
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.temperature-text-small {
+    position: absolute;
+    bottom: 100px;
+    user-select: none;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.temperature-graduation {
+    left: calc(50% - 150px);
+    position: absolute;
+    bottom: 25px;
+    user-select: none;
+}
+
+.temperature-element {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    margin: 0 10px 0 10px;
+    opacity: 0.7;
+}
+
+.temperature-element-line {
+    font-size: 7px;
+}
+
+.lower-container {
+    background-color: #12132C;
+}
+
+.slider-container {
+    width: 150px;
+    height: 80px;
+    margin-top: -30px;
+    margin-left: calc(50% - 187px);
+    position: relative;
+}
+
+.slider-button {
+    position: absolute;
+    left: 42px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2724A2;
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+}
+
+.slider-icon {
+    margin-top: 16px;
+    margin-left: 21px;
+    color: white;
+}

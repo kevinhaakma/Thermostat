@@ -1,0 +1,17 @@
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Thermostat
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\appsettings.Development.json
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\appsettings.json
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\schedule.json
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Thermostat.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Thermostat.deps.json
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Thermostat.runtimeconfig.json
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Thermostat.pdb
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Microsoft.Win32.Registry.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\System.IO.Ports.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\System.Security.AccessControl.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\System.Security.Principal.Windows.dll
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Release\netcoreapp3.1\linux-arm\PubTmp\Out\libSystem.IO.Ports.Native.so

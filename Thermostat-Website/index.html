@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Activity Monitor</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app" class="main-container" :class="{'grabbing': dragging}" @mousemove="mouseMoving" @mouseUp="stopDrag">
+        <div class="upper-container" :style="bgStyle">
+            <div class="scheduler-menu dropdown">
+                <button class="dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h2 class="bi-clock-fill"></h2>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Temp</th>
+                                <th>
+                                    <th>
+                            </tr>
+                        </thead>
+                        <tbody id="scheduleTable">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <h2 class="temperature-text">{{currentTemperature | round}}</h2>
+            <h4 class="temperature-text-small">{{desiredTemperature | round}}</h4>
+            <div class="temperature-graduation">
+                <div class="temperature-element" v-for="el in temperatureGrades" :key="el" :style="tempElementStyle(el)">
+                    <span class="temperature-element-number">{{el}}</span><br>
+                    <span class="temperature-element-line">|</span>
+                </div>
+            </div>
+        </div>
+        <div class="lower-container">
+            <div class="slider-container" :style="sliderStyle">
+                <div class="slider-button" :class="{'grabbing': dragging}" @mouseDown="startDrag">
+                    <i class="fas fa-thermometer-empty slider-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/Thermostat.js"></script>
+    <script src="js/Scheduler.js"></script>
+</body>
+
+</html>
