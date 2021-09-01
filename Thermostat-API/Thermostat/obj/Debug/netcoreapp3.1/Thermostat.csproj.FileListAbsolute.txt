@@ -1,4 +1,3 @@
-C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.csprojAssemblyReference.cache
 C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.AssemblyInfoInputs.cache
 C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.AssemblyInfo.cs
 C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.csproj.CoreCompileInputs.cache
@@ -40,3 +39,4 @@ C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1
 C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.pdb
 C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.genruntimeconfig.cache
 C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\bin\Debug\netcoreapp3.1\schedule.json
+C:\Users\Kevin Haakma\source\repos\Thermostat\Thermostat\obj\Debug\netcoreapp3.1\Thermostat.csproj.AssemblyReference.cache

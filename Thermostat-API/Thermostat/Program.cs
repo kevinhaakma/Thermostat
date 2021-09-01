@@ -19,6 +19,7 @@ namespace Thermostat
         private static bool keepRunning = true;
         private static bool heating = false;
         private static Queue<double> temperatureList = new Queue<double>();
+        private static int logCount = 0;
 
         public static void Main(string[] args)
         {
@@ -55,6 +56,13 @@ namespace Thermostat
                 if(temperatureList.Count > 5)
                 {
                     temperatureList.Dequeue();
+                }
+
+                logCount++;
+                if(logCount > 120)
+                {
+                    logCount = 0;
+                    LogHandler.LogCurrentTemprature(new ThermostatObject() { heating = getHeatingStatus(), CurrentTemperature = getTemperature(), DesiredTemperature = ThermostatController.desiredTemperature });
                 }
 
                 ScheduleObject upcomingSchedulePoint = ScheduleHandler.GetUpComingScheduledObject();
